@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "PowerTab (powerapps environment swapper)",
+    "version": "1.0",
+
+    "description": "Stay with your entities (and more) when you switch PowerApps environments",
+    "icons": {
+        "48": "icon.png"
+      }, 
+
+    "content_security_policy": "script-src 'self'; object-src 'self'",
+
+    "permissions": ["activeTab", "tabs"],
+
+    "browser_action": {
+      "default_popup": "popup/powerapps.html",
+      "default_icon": "icon.png"
+    }
+
+  }
+  
