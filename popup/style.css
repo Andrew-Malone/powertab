@@ -1,0 +1,35 @@
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    text-align: center; 
+    padding: 10px;
+    background-color: #222222;
+    color: #FFF;
+}
+
+/* Container to hold all buttons */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+    max-height: 300px; /* Limits height to avoid overflow */
+    overflow-y: auto;
+}
+
+/* Styles for environment buttons */
+.env-button {
+    background-color: #CB50AA;  /* Lighter PowerApps color */
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    width: 100%;
+    text-align: left;
+}
+
+.env-button:hover {
+    background-color: #99338F; /* Darker PowerApps color */
+}
